@@ -1,31 +1,33 @@
+
 <!DOCTYPE html>
 <html>
 
 <head> 
-  <meta charset="utf-08">
+  <meta charset="UTF-8">
+  <style>
+    body {
+        text-align: center;
+        background-color: black;
+        color: rgb(29, 255, 29);
+    }
+    </style>  
+
   <title> "BODEB" </title>
 </head>
 
 <body>
 
-  <h1>The template Element</h1>
+  <h1>BODEB - Soluções para seu plantão</h1>
 
-  <p>Click the button below to display the hidden content from the template element.</p>
+  <p>Clique nos botões abaixo para abrir o modelo.</p>
+  
+  <p> </p>
+  <p>Modelos</p>
+  <a href = "https://raul-c-n.github.io/Raul-C-N.io/extravio.html"> EXTRAVIO DE DOCUMENTO</a>
+  <br>
+  <a href = "https://raul-c-n.github.io/Raul-C-N.io/obito.html"> ÓBITO</a>
+  <p>EM CONSTRUÇÃO</p>
 
-  <button onclick="showContent()">Show hidden content</button>
 
-  <template>
-    <h2>Flower</h2>
-    <img src="img_white_flower.jpg" width="214" height="204">
-  </template>
-
-  <script>
-  function showContent() {
-    var temp = document.getElementsByTagName("template")[0];
-    var clon = temp.content.cloneNode(true);
-    document.body.appendChild(clon);
-  }
-  </script>
-
+<?php endif; ?>
 </body>
-</html>
