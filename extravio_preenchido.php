@@ -5,8 +5,8 @@
   <style>
     body {
         text-align: center;
-        background-color: black;
-        color: rgb(29, 255, 29);
+        background-color: rgb(120, 211, 223);
+        color: rgb(0, 0, 0);
     }
     </style>  
   <title>Extravio de Documento</title>
